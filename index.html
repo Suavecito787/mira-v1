@@ -44,6 +44,111 @@
 
       padding: 30px;
 
+      width: 100%;
+
+      max-width: 700px;
+        }
+
+    .orb {
+
+      width: 150px;
+
+      height: 150px;
+
+      margin: 0 auto 30px;
+
+      border-radius: 50%;
+
+      background:
+
+        radial-gradient(circle at 35% 30%, #ffffff 0%, #b9a8ff 12%, #7157d9 35%, #32256e 62%, #111522 100%);
+
+      box-shadow:
+
+        0 0 30px rgba(145, 115, 255, 0.55),
+
+        0 0 80px rgba(90, 70, 190, 0.35);
+
+      animation: breathe 4s ease-in-out infinite;
+
     }
 
-    .or
+    h1 {
+
+      margin: 0;
+
+      font-size: 42px;
+
+      font-weight: 600;
+
+      letter-spacing: 2px;
+
+    }
+
+    .status {
+
+      margin-top: 12px;
+
+      color: #aaaec0;
+
+      font-size: 16px;
+
+      letter-spacing: 0.5px;
+
+    }
+
+    .version {
+
+      margin-top: 30px;
+
+      color: #62677a;
+
+      font-size: 12px;
+
+      text-transform: uppercase;
+
+      letter-spacing: 2px;
+
+    }
+
+    @keyframes breathe {
+
+      0%, 100% {
+
+        transform: scale(1);
+
+        opacity: 0.85;
+
+      }
+
+      50% {
+
+        transform: scale(1.06);
+
+        opacity: 1;
+
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <main class="mira">
+
+    <div class="orb"></div>
+
+    <h1>Mira</h1>
+
+    <div class="status">Online</div>
+
+    <div class="version">Mira v1</div>
+
+  </main>
+
+</body>
+
+</html>
